@@ -60,6 +60,9 @@ int main ( int argc, char *argv[] )
 			case '\"':
 				output += "\\\"";
 				break;
+			case '%':
+				output += "%%%%";
+				break;
 			case '\'':
 				output += "\\\'";
 				break;
